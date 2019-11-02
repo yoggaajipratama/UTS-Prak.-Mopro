@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="320px"
+        android:layout_height="320px"
+        android:src="@drawable/baka"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Nama\t\t\t: Yogga Aji Pratama" />
+    <TextView
+        android:id="@+id/nim"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="NIM\t\t\t\t\t\t: 1167050168" />
+    <TextView
+        android:id="@+id/noHp"
+        android:layout_below="@id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="No HP\t\t: 089609214064" />
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_below="@id/noHp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Alamat\t: Rancaekek" />
+    <TextView
+        android:id="@+id/sosmed"
+        android:layout_below="@id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Ig\t\t\t\t\t\t\t\t: yogga030699__" />
+
+    <Button
+        android:id="@+id/bHP"
+        android:layout_below="@id/sosmed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Buka Nomor Hp"/>
+
+    <Button
+        android:id="@+id/bSsmd"
+        android:layout_below="@id/bHP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Buka Akun Sosmed"/>
+
+    <Button
+        android:id="@+id/bLks"
+        android:layout_below="@id/bSsmd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="Buka Alamat"/>
+
+
+</RelativeLayout>
